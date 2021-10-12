@@ -7,7 +7,10 @@ merged_assets=$1
 echo "Merging assets..."
 
 cp -r $resource_path/dev $merged_assets/dev
+
 cp ./config.txt $merged_assets/config.txt
+
+cp ./ParacraftBuildinMod.zip $merged_assets/npl_packages/ParacraftBuildinMod.zip
 
 cp ./package.npl $merged_assets/dev/trunk/package.npl
 cp ./package.npl $merged_assets/dev/WorldShare/package.npl
