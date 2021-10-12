@@ -1,0 +1,1 @@
+cmdline=noupdate="true" mc="true" debug="main" bootstrapper="script/apps/Aries/main_loop.lua" loadpackage="dev/trunk/;dev/WorldShare/;dev/ExplorerApp/;dev/DiffWorld/;" mod="WorldShare|ExplorerApp|DiffWorld" isDevEnv="true" IsDevMode="true" dev=""
