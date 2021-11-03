@@ -24,4 +24,8 @@ xcopy %mod_path%DiffWorld\ %merged_assets%\dev\DiffWorld\ /e/h/c/i
 copy .\config.txt %merged_assets%\config.txt
 copy .\ParacraftBuildinMod.zip %merged_assets%\npl_packages\ParacraftBuildinMod.zip
 
+copy .\package.npl %merged_assets%\dev\WorldShare\package.npl
+copy .\package.npl %merged_assets%\dev\ExplorerApp\package.npl
+copy .\package.npl %merged_assets%\dev\DiffWorld\package.npl
+
 exit /b %errorlevel%
