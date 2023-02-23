@@ -29,3 +29,5 @@ echo ParaGlobal.ExitApp();>>%boost_file%
 call "%paraengine%" bootstrapper="%boost_file%"
 
 del %boost_file%
+
+exit 0
